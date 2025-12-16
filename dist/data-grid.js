@@ -2014,7 +2014,6 @@ var ContextMenu = class extends base_plugin_default {
   }
   oncontextmenu(e) {
     e.preventDefault();
-    const grid = this.grid;
     const target = getParentElement(e.target, "THEAD");
     const menu = this.menu;
     const rect = target.getBoundingClientRect();
